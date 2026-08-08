@@ -2,6 +2,7 @@ CXX      := g++
 CXXFLAGS := -std=c++11 -O2 -Wall -Wextra -pedantic
 TARGET   := sistema_solar
 SRC      := src/main.cpp src/engine.cpp src/render.cpp src/input.cpp
+SRC      := src/main.cpp src/engine.cpp src/render.cpp src/input.cpp
 LIBS     := -lGL -lGLU -lglut
 
 .PHONY: all run clean
